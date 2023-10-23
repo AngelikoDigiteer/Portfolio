@@ -1,0 +1,19 @@
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+
+$spacer: 4px;
+
+
+$primary:#393053;
+$secondary : #efe5f7;
+
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@import './CustomScss/Header.scss';
+@import './CustomScss/Footer.scss';
+@import './CustomScss/ColorSection.scss';
+@import './CustomScss/Card.scss';
