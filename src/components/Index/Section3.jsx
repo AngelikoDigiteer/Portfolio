@@ -6,17 +6,21 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Questions from '../img/questions.svg'
 
+const SectionComponent = {
+    padding:"80px",
+}
+
 const Section3 = () => {
     return (
-        <section className='LightSection secondary-bg p-20' id='Contacts'>
+        <section className='LightSection secondary-bg' id='Contacts' style={SectionComponent}>
             <Container>
-                <Row className='justify-content-center align-items-center'>
-                    <div className='text-center'>
+                <Row className='justify-content-center align-items-center justify-content-between'>
+                    <div className='text-center mb-5'>
                         <h2 className='fw-semibold'>
                             Interested? Send me a message!
                         </h2>
                     </div>
-                    <Col lg="6">
+                    <Col lg="5">
                         <Form className='mb-sm-4 mb-md-4'>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label className='fw-semibold'>Email address</Form.Label>
@@ -33,7 +37,7 @@ const Section3 = () => {
                             </Form.Group>
                         </Form>
                     </Col>
-                    <Col lg="6">
+                    <Col lg="5">
                         <img src={Questions} alt="questions" className='img-fluid' />
                     </Col>
                 </Row>

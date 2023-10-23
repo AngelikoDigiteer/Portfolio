@@ -6,11 +6,15 @@ import Programming from '../img/programming.svg';
 import Accordion from 'react-bootstrap/Accordion';
 import Pup from '../img/puplogo.webp'
 
+const SectionComponent = {
+    padding:"80px",
+}
+
 const Section1 = () => {
     return (
-        <section className='LightSection secondary-bg p-20' id='About'>
+        <section className='LightSection secondary-bg' id='About' style={SectionComponent}>
             <Container>
-                <Row className='align-items-center'>
+                <Row className='align-items-center justify-content-between'>
                     <div className='text-center mb-5'>
                         <h2 className='fw-semibold'>
                             About Me
@@ -38,7 +42,7 @@ const Section1 = () => {
                             </Accordion.Item>
                         </Accordion>
                     </Col>
-                    <Col lg="6" className=''>
+                    <Col lg="5" className=''>
                         <img src={Programming} alt="education" className='img-fluid' />
                     </Col>
                 </Row> 

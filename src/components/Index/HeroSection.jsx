@@ -5,25 +5,33 @@ import Col from 'react-bootstrap/Col';
 import Portfolio from '../img/portfolio.webp'
 import Button from 'react-bootstrap/Button';
 
+const SectionComponent = {
+    padding:"80px 80px 0 80px  ",
+}
+
 const HeroSection = () => {
     return (
-        <section className='ColorSection px-20 pt-20 primary-bg' id='HeroSection'>
+        <section className='ColorSection primary-bg' id='HeroSection' style={SectionComponent}>
             <Container>
-                <Row className='align-items-center' >
+                <Row className='align-items-center justify-content-between' >
                     <Col lg="6">
-                        <div className='text-white'>
-                            <h2 className='fw-semibold'>
-                            Hi I'm Angeliko "Ge" Centeno
-                            </h2>
-                            <p>
+                        <div className='text-white mb-3'>
+                            <div>
+                                <h1 className='fw-semibold display-3'>
+                                Hi I'm Angeliko "Ge" Centeno
+                                </h1>
+                            </div>
+                            <div>
+                                <p>
                                 And I want to  be a front-end developer
-                            </p>
+                                </p>
+                            </div>
                         </div>
                         <div>
                             <Button href="#Services">Services</Button>
                         </div>
                     </Col>
-                    <Col lg="6">
+                    <Col lg="4">
                         <img src={Portfolio} alt="ageliko"  className='img-fluid'/>
                     </Col>
                 </Row>

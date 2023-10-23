@@ -2,10 +2,14 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import Responsive from '../img/responsive.webp'
 
+const SectionComponent = {
+    padding:"80px",
+}
+
 const CarouselSection = () => {
     return (
-        <section className='ColorSection secondary-bg p-20' id='Services'>
-                <div className='text-center text-white pb-5'>
+        <section className='ColorSection secondary-bg' id='Services' style={SectionComponent}>
+                <div className='text-center text-white mb-5'>
                     <h2 className='fw-bold'>
                         Services offered 
                     </h2>
