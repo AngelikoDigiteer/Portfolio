@@ -8,7 +8,7 @@ import Questions from '../img/questions.svg'
 
 const Section3 = () => {
     return (
-        <section className='LightSection secondary-bg px-20 py-20' id='Contacts'>
+        <section className='LightSection secondary-bg p-20' id='Contacts'>
             <Container>
                 <Row className='justify-content-center align-items-center'>
                     <div className='text-center'>

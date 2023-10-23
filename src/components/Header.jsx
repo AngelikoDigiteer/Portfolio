@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
     return (
-    <section className='Header fluid primary-bg pt-12 pb-12'>
+    <section className='Header fluid primary-bg py-12'>
         <Container>
             <Navbar data-bs-theme="dark" expand="lg">
                 <Navbar.Brand className='text-white' href="#HeroSection"><b>Angeliko Dev</b></Navbar.Brand>

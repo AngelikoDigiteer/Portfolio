@@ -28,7 +28,7 @@ const Section2 = () => {
     return (
         <section className='ColorSection secondary-bg p-20' id="Skills">
             <Container>
-            <div className='text-center text-white mb-12'>
+            <div className='text-center text-white mb-12 '>
                     <h2>My Skills</h2>
                 </div>
             <Row className='justify-content-center align-items-center text-center'>
