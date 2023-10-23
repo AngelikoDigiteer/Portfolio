@@ -8,7 +8,7 @@ import Pup from '../img/puplogo.webp'
 
 const Section1 = () => {
     return (
-        <section className='LightSection secondary-bg p-20' id='About'>
+        <section className='LightSection secondary-bg px-20 py-20' id='About'>
             <Container>
                 <Row className='align-items-center'>
                     <div className='text-center mb-5'>
