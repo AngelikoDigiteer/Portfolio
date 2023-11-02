@@ -14,21 +14,21 @@ const CarouselSection = () => {
                 </div>
                 <Carousel>
                     <Carousel.Item interval={1000}>
-                        <img className="d-block w-100 h-100"  src={Responsive} alt="First slide" width={250} height={250}/>
+                        <img className="d-block w-100 img-fluid" src={Responsive} alt="First slide"/>
                     <Carousel.Caption>
                         <h3>Front-end Development</h3>
                     </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item interval={500}>
-                        <img className="d-block w-100 h-100" src={Responsive} alt="First slide"width={250} height={250}/>
+                        <img className="d-block w-100 img-fluid" src={Responsive} alt="First slide"/>
                     <Carousel.Caption>
                         <h3>Sample Service</h3>
                     </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img className="d-block w-100 h-100" src={Responsive} alt="First slide" width={250} height={250}/>
+                        <img className="d-block w-100 img-fluid" src={Responsive} alt="First slide"/>
                     <Carousel.Caption>
                         <h3>Sample Service</h3>
                     </Carousel.Caption>

@@ -8,6 +8,7 @@ import LinkedIn from '../components/img/linkedin.svg'
 import Contact from '../components/img/contact.svg'
 import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
@@ -16,9 +17,21 @@ const Footer = () => {
         <section className='Footer fluid py-20'>
             <Container>
                 <Row className='text-white text-center mb-6'>
-                    <h5>Angeliko Centeno</h5>
-                    <h2>angeliko.digiteeracademy@gmail.com</h2>
-                    <h5>Golden City, Binan City, Laguna</h5>
+                        <Col className='order-lg-2' lg="12">
+                            <h3>
+                                angeliko.digiteeracademy@gmail.com
+                            </h3>
+                        </Col>
+                        <Col className='order-lg-1' lg="12">
+                            <h2 className='fw-semibold'>
+                                Angeliko Centeno
+                            </h2>
+                        </Col>
+                        <Col className='order-lg-last' lg="12">
+                            <p>
+                                Binan City, Laguna
+                            </p>
+                        </Col>
                 </Row>
                 <Stack direction="horizontal" gap={3}>
                     <div className='text-white'>
