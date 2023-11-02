@@ -6,16 +6,13 @@ import Programming from '../img/programming.svg';
 import Accordion from 'react-bootstrap/Accordion';
 import Pup from '../img/puplogo.webp'
 
-const SectionComponent = {
-    padding:"80px",
-}
 
 const Section1 = () => {
     return (
-        <section className='LightSection secondary-bg' id='About' style={SectionComponent}>
+        <section className='LightSection secondary-bg p-20' id='About' >
             <Container>
                 <Row className='align-items-center justify-content-between'>
-                    <div className='text-center mb-5'>
+                    <div className='text-center'>
                         <h2 className='fw-semibold'>
                             About Me
                         </h2>

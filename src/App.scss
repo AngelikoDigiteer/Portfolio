@@ -1,12 +1,5 @@
 /* import bootstrap to set changes */
-@import '~bootstrap/scss/bootstrap';
-
-$spacer: 4px;
-
-
-$primary:#393053;
-$secondary : #efe5f7;
-
+@import './Custom.scss';
 
 .body{
     font-family: 'Poppins', sans-serif;

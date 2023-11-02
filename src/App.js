@@ -1,9 +1,11 @@
 import './App.css';
 import './App.scss';
+import './Custom.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Site from './layouts/Site';
 import Index from './pages/Index';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 

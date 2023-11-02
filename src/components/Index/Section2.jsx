@@ -24,15 +24,12 @@ const CardComponent = {
     padding: "24px",
 }
 
-const SectionComponent = {
-    padding:"80px",
-}
 
 const Section2 = () => {
     return (
-        <section className='ColorSection secondary-bg' id="Skills" style={SectionComponent}>
+        <section className='ColorSection secondary-bg p-20' id="Skills">
             <Container>
-            <div className='text-center text-white mb-5 '>
+            <div className='text-center text-white'>
                     <h2>My Skills</h2>
                 </div>
             <Row className='justify-content-center align-items-center text-center'>

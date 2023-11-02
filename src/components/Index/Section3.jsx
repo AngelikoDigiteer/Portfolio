@@ -6,16 +6,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Questions from '../img/questions.svg'
 
-const SectionComponent = {
-    padding:"80px",
-}
+
 
 const Section3 = () => {
     return (
-        <section className='LightSection secondary-bg' id='Contacts' style={SectionComponent}>
+        <section className='LightSection secondary-bg p-20' id='Contacts'>
             <Container>
                 <Row className='justify-content-center align-items-center justify-content-between'>
-                    <div className='text-center mb-5'>
+                    <div className='text-center'>
                         <h2 className='fw-semibold'>
                             Interested? Send me a message!
                         </h2>

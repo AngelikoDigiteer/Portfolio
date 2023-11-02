@@ -6,7 +6,6 @@ import Twitter from '../components/img/twitter.svg'
 import Instagram from '../components/img/instagram.svg'
 import LinkedIn from '../components/img/linkedin.svg'
 import Contact from '../components/img/contact.svg'
-import Address from '../components/img/address.svg'
 import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap/Row';
 
@@ -22,16 +21,10 @@ const Footer = () => {
                     <h3>Golden City, Binan City, Laguna</h3>
                 </Row>
                 <Stack direction="horizontal" gap={3}>
-                    <Stack gap={3}>
-                        <div className="p-2 text-white">
-                            <img src={Contact} alt="contact" className='img-fluid' />
+                    <div className='text-white'>
+                        <img src={Contact} alt="contact" className='img-fluid' />
                             +63 9203487694
-                        </div>
-                        <div className="p-2 text-white">
-                            <img src={Address} alt="address" className='img-fluid' />
-                            Binan, Laguna
-                        </div>
-                    </Stack>
+                    </div>
                     <Link target='blank' to="https://www.facebook.com/aintgeliko" className="ms-auto">
                         <img src={Facebook} alt="facebook" className='img-fluid' />
                     </Link>
