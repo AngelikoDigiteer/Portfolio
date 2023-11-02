@@ -29,109 +29,112 @@ const Section2 = () => {
     return (
         <section className='ColorSection secondary-bg p-20' id="Skills">
             <Container>
-            <div className='text-center text-white'>
-                    <h2>My Skills</h2>
+            <div className='text-center text-white mb-3'>
+                    <h2 className='fw-semibold'>My Skills</h2>
                 </div>
             <Row className='justify-content-center align-items-center text-center'>
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Html} alt="html" />
+                        <Card.Img variant="top" src={Html} alt="html" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>HTML</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Css} alt="css"/>
+                        <Card.Img variant="top" src={Css} alt="css" width={250} height={250}/>
                     <Card.Body>
                     <Card.Title className='fw-semibold'>CSS</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={JavaScript} alt="javascript" />
+                        <Card.Img variant="top" src={JavaScript} alt="javascript" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>JavaScript</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Tailwind} alt="tailwind" />
+                        <Card.Img variant="top" src={Tailwind} alt="tailwind" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>Tailwind</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Bootstrap} alt="bootstrap" />
+                        <Card.Img variant="top" src={Bootstrap} alt="bootstrap" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>Bootstrap</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Sass} alt="sass" />
+                        <Card.Img variant="top" src={Sass} alt="sass" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>Sass</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={ReactFramework} alt="React" />
+                        <Card.Img variant="top" src={ReactFramework} alt="React" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>React</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Rails} alt="Rails" />
+                        <Card.Img variant="top" src={Rails} alt="Rails" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>Rails</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={JavaProgramming} alt="Java" />
+                        <Card.Img variant="top" src={JavaProgramming} alt="Java" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>Java</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Csharp} alt="csharp" />
+                        <Card.Img variant="top" src={Csharp} alt="csharp" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>C#</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={MySql} alt="mysql" />
+                        <Card.Img variant="top" src={MySql} alt="mysql" width={250} height={250} />
                     <Card.Body>
                     <Card.Title className='fw-semibold'>MySQL</Card.Title>
                     </Card.Body>
                     </Card>
                 </Col>
 
-                <Col xs="auto" sm="auto" md="auto" lg="auto">
+                <Col xs="auto" sm="auto" md="auto" lg="auto mb-3">
                     <Card className='hover-transform mb-8' style={CardComponent}>
-                        <Card.Img variant="top" src={Cisco} alt="cisco" />
+                        <Card.Img variant="top" src={Cisco} alt="cisco" width={250} height={250}/>
                     <Card.Body>
                     <Card.Title className='fw-semibold'>Cisco</Card.Title>
                     </Card.Body>

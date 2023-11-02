@@ -14,9 +14,10 @@ const HeroSection = () => {
             <Container>
                 <Row className='align-items-center justify-content-between' >
                     <Col lg="6">
-                        <motion.div initial={{ opacity: 0, scale: 0.5 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }} className='text-white mb-3'>
+                        <motion.div 
+                        initial={{ x: '-100vw'}}
+                        animate={{ x: 0 }}
+                        transition={{ type: 'spring', delay: 0.5 }} className='text-white mb-3'>
                             <div>
                                 <h1 className='fw-semibold display-3'>
                                 Hi I'm Angeliko "Ge" Centeno
@@ -28,15 +29,19 @@ const HeroSection = () => {
                                 </p>
                             </div>
                         </motion.div>
-                        <div>
-                            <Button href="#Services">Services</Button>
-                        </div>
+                        <motion.div 
+                        initial={{ x: '-100vw'}}
+                        animate={{ x: 0 }}
+                        transition={{ type: 'spring', delay: 0.5 }}>
+                            <Button size='lg' href="#Services">Services</Button>
+                        </motion.div>
                     </Col>
                     <Col lg="4">
-                        <motion.div initial={{ opacity: 0, scale: 0.5 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }}>
-                            <img src={Portfolio} alt="ageliko"  className='img-fluid'/>
+                        <motion.div 
+                        initial={{ x: '100vw'}}
+                        animate={{ x: 0 }}
+                        transition={{ type: 'spring', delay: 0.5 }}>
+                            <img src={Portfolio} alt="ageliko"  className='img-fluid'width={600} height={800}/>
                         </motion.div>
                     </Col>
                 </Row>

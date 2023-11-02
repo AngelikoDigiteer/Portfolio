@@ -40,7 +40,7 @@ const Section1 = () => {
                         </Accordion>
                     </Col>
                     <Col lg="5" className=''>
-                        <img src={Programming} alt="education" className='img-fluid' />
+                        <img src={Programming} alt="education" className='img-fluid' width={520} height={380}/>
                     </Col>
                 </Row> 
             </Container>

@@ -36,7 +36,9 @@ const Section3 = () => {
                         </Form>
                     </Col>
                     <Col lg="5">
-                        <img src={Questions} alt="questions" className='img-fluid' />
+                        <div>
+                            <img src={Questions} alt="questions" className='img-fluid' width={520} height={380}/>
+                        </div>
                     </Col>
                 </Row>
             </Container>
